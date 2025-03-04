@@ -1,0 +1,86 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_select",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "cdf447c7-c828-4737-8665-1130b6aa4f01",
+    "timestamp": "2025-02-28T06:58:08.733Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "1"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead"
+        }
+      ],
+      "items": [
+        {
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "item"
+            }
+          },
+          {
+            "item": {
+              "id": "d2fc8d59-c5d9-4997-88ff-ca129eab858e",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "tax"
+            }
+          }
+        ],
+        "ttl": "P1D"
+      }
+    }
+  }
+}
