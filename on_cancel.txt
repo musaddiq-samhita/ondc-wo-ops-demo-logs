@@ -1,0 +1,251 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_cancel",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "afe9bd02-a0db-4182-9ba8-2348e09fe2a6",
+    "timestamp": "2025-03-04T05:36:36.016Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "id": "58bec46f-649d-476b-8075-258effe93cbf",
+      "status": "Cancelled",
+      "provider": {
+        "id": "1"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "state": {
+            "descriptor": {
+              "code": "CANCELLED"
+            },
+            "updated_at": "2025-03-04T05:36:36.103Z"
+          }
+        },
+        {
+          "id": "C1",
+          "type": "lead",
+          "tags": [
+            {
+              "descriptor": {
+                "code": "CURRENCY"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "ID"
+                  },
+                  "value": "ca4c08e6-951f-470c-9923-d257e20cdc9a"
+                },
+                {
+                  "descriptor": {
+                    "code": "TYPE"
+                  },
+                  "value": "item"
+                },
+                {
+                  "descriptor": {
+                    "code": "VALUE"
+                  },
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "CURRENCY"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "ID"
+                  },
+                  "value": "d2fc8d59-c5d9-4997-88ff-ca129eab858e"
+                },
+                {
+                  "descriptor": {
+                    "code": "TYPE"
+                  },
+                  "value": "tax"
+                },
+                {
+                  "descriptor": {
+                    "code": "VALUE"
+                  },
+                  "value": 0
+                }
+              ]
+            }
+          ],
+          "state": {
+            "descriptor": {
+              "code": "CANCELLED"
+            },
+            "updated_at": "2025-03-04T05:36:36.103Z"
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "58bec46f-649d-476b-8075-258effe93cbf",
+          "fulfillment_ids": [
+            "F1",
+            "C1"
+          ],
+          "time": {
+            "range": {
+              "start": "2024-09-02T18:30:00.000Z",
+              "end": "2025-03-31T18:29:59.000Z"
+            }
+          },
+          "tags": [
+            {
+              "descriptor": {
+                "code": "CANCEL_REQUEST"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "REASON_ID"
+                  },
+                  "value": "001"
+                },
+                {
+                  "descriptor": {
+                    "code": "INITIATED_BY"
+                  },
+                  "value": "skill-mantra-ondc-preprod.samhita.org"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "item"
+            }
+          },
+          {
+            "item": {
+              "id": "d2fc8d59-c5d9-4997-88ff-ca129eab858e",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "tax"
+            }
+          }
+        ],
+        "ttl": "P1D"
+      },
+      "payments": [
+        {
+          "collected_by": "BAP",
+          "status": "PAID",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_PHASE"
+                },
+                "value": "sale-amount"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_TYPE"
+                },
+                "value": "neft"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BASIS"
+                },
+                "value": "lead & recruitment"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_WINDOW"
+                },
+                "value": "P3M"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          },
+          "type": "ON-ORDER",
+          "params": {
+            "currency": "INR",
+            "transaction_id": "7b59184a-7b0b-4600-993c-3f3426822adf",
+            "amount": "0"
+          }
+        }
+      ],
+      "updated_at": "2025-03-04T05:36:36.103Z"
+    }
+  }
+}
