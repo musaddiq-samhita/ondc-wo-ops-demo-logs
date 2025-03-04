@@ -1,0 +1,82 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "select",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-02-28T06:57:55.362Z",
+    "message_id": "cdf447c7-c828-4737-8665-1130b6aa4f01",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "ttl": "PT30S",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "1"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead"
+        }
+      ],
+      "items": [
+        {
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "3"
+                },
+                {
+                  "code": "COMMERCIAL_TYPE",
+                  "value": "amount"
+                },
+                {
+                  "code": "COMMERCIAL_VALUE",
+                  "value": "0"
+                },
+                {
+                  "code": "COMMERCIAL_NAME",
+                  "value": "lead"
+                },
+                {
+                  "code": "COMMERCIAL_TRIGGERING_STATE",
+                  "value": "APPLICATION_SUBMITTED"
+                },
+                {
+                  "code": "COMPENSATION_TYPE",
+                  "value": "CTC"
+                },
+                {
+                  "code": "COMPENSATION_TRANSFER_PERIOD",
+                  "value": "P1M"
+                },
+                {
+                  "code": "COMPENSATION_PERCENTAGE_SPLIT",
+                  "value": "100"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
