@@ -1,0 +1,366 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "on_confirm",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "56c6875e-35ae-4e6f-92aa-076aeea2730d",
+    "timestamp": "2025-02-28T06:58:50.305Z",
+    "ttl": "PT30S",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "id": "58bec46f-649d-476b-8075-258effe93cbf",
+      "status": "Active",
+      "provider": {
+        "id": "1",
+        "descriptor": {
+          "name": "Quess Jobs"
+        }
+      },
+      "items": [
+        {
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "ACADEMIC_QUALIFICATIONS"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "COURSE_LEVEL"
+                  },
+                  "value": "Graduation"
+                },
+                {
+                  "descriptor": {
+                    "code": "MANDATORY_ELIGIBILITY"
+                  },
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "JOB_REQUIREMENT"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "REQ_EXPERIENCE"
+                  },
+                  "value": "PT0S"
+                },
+                {
+                  "descriptor": {
+                    "code": "REQ_GENDER"
+                  },
+                  "value": "both"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "JOB_DETAILS"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "JOB_ROLE"
+                  },
+                  "value": "Ac Technician"
+                },
+                {
+                  "descriptor": {
+                    "code": "JOB_TYPE"
+                  },
+                  "value": "Full-time"
+                },
+                {
+                  "descriptor": {
+                    "code": "GENDER_PREFERENCE"
+                  },
+                  "value": "both"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "COMPENSATION"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "TYPE"
+                  },
+                  "value": "ctc"
+                },
+                {
+                  "descriptor": {
+                    "code": "MIN"
+                  },
+                  "value": "11100"
+                },
+                {
+                  "descriptor": {
+                    "code": "MAX"
+                  },
+                  "value": "22200"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "0"
+        },
+        "breakup": [
+          {
+            "item": {
+              "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "item"
+            }
+          },
+          {
+            "item": {
+              "id": "d2fc8d59-c5d9-4997-88ff-ca129eab858e",
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              },
+              "title": "tax"
+            }
+          }
+        ],
+        "ttl": "P1D"
+      },
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "state": {
+            "descriptor": {
+              "code": "APPLICATION_ACCEPTED"
+            },
+            "updated_at": "2025-02-28T06:58:50.372Z"
+          },
+          "customer": {
+            "contact": {
+              "email": "musaddiq.m1@yopmail.com",
+              "phone": "+919632587456"
+            },
+            "person": {
+              "age": "26",
+              "creds": [
+                {
+                  "descriptor": {
+                    "long_desc": "Permanent Account Number",
+                    "name": "PAN_CARD",
+                    "short_desc": "PAN Card information"
+                  },
+                  "id": "D1",
+                  "type": "jpeg",
+                  "url": "https://example.com/pan_card.jpeg"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "Unique Identification Number",
+                    "name": "AADHAAR_CARD",
+                    "short_desc": "Aadhaar Card information"
+                  },
+                  "id": "D2",
+                  "type": "pdf",
+                  "url": "https://example.com/aadhaar_card.pdf"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "Election Commission ID",
+                    "name": "VOTER_ID",
+                    "short_desc": "Voter ID information"
+                  },
+                  "id": "D3",
+                  "type": "jpeg",
+                  "url": "https://example.com/voter_id.jpeg"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "International Travel Document",
+                    "name": "PASSPORT",
+                    "short_desc": "Passport information"
+                  },
+                  "id": "D4",
+                  "type": "jpeg",
+                  "url": ""
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "License to Drive",
+                    "name": "DRIVING_LICENSE",
+                    "short_desc": "Driving License information"
+                  },
+                  "id": "D5",
+                  "type": "jpeg",
+                  "url": "https://example.com/driving_license.jpeg"
+                },
+                {
+                  "descriptor": {
+                    "long_desc": "A comprehensive document showcasing an individual's career achievements, skills, work history, education, certifications, and professional experience.",
+                    "name": "RESUME",
+                    "short_desc": "Summary of qualifications, work experience, and education."
+                  },
+                  "id": "D6",
+                  "type": "pdf",
+                  "url": "https://msnlabs.com/img/resume-sample.pdf"
+                }
+              ],
+              "gender": "Male",
+              "languages": [
+                {
+                  "name": "en"
+                },
+                {
+                  "name": "hi"
+                }
+              ],
+              "name": "Mohammed Musaddiq",
+              "skills": [
+                {
+                  "name": "AWS"
+                },
+                {
+                  "name": "GCP"
+                },
+                {
+                  "name": "Docker"
+                },
+                {
+                  "name": "GIT"
+                },
+                {
+                  "name": "Python"
+                },
+                {
+                  "name": "JavaScript"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "payments": [
+        {
+          "collected_by": "BAP",
+          "status": "PAID",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_PHASE"
+                },
+                "value": "sale-amount"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_TYPE"
+                },
+                "value": "neft"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BASIS"
+                },
+                "value": "lead & recruitment"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_WINDOW"
+                },
+                "value": "P3M"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          },
+          "type": "ON-ORDER",
+          "params": {
+            "currency": "INR",
+            "transaction_id": "7b59184a-7b0b-4600-993c-3f3426822adf",
+            "amount": 0
+          }
+        }
+      ],
+      "updated_at": "2025-02-28T06:58:50.372Z"
+    }
+  }
+}
