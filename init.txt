@@ -1,0 +1,338 @@
+{
+  "context": {
+    "domain": "ONDC:ONEST10",
+    "action": "init",
+    "version": "2.0.0",
+    "bap_id": "skill-mantra-ondc-preprod.samhita.org",
+    "bap_uri": "https://skill-mantra-ondc-preprod.samhita.org/",
+    "bpp_id": "preprod-ondc.hamarajobs.ai",
+    "bpp_uri": "https://preprod-ondc.hamarajobs.ai/bpp",
+    "transaction_id": "f14efae6-4a8d-43c9-8c9e-a0ffd7fc50b0",
+    "message_id": "d1e87191-fb98-402e-b9c4-7c06dc981094",
+    "location": {
+      "city": {
+        "code": "std:080"
+      },
+      "country": {
+        "code": "IND"
+      }
+    },
+    "timestamp": "2025-02-28T06:58:11.150Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "1"
+      },
+      "items": [
+        {
+          "id": "ca4c08e6-951f-470c-9923-d257e20cdc9a",
+          "fulfillment_ids": [
+            "F1"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "NP_FEES"
+              },
+              "list": [
+                {
+                  "code": "ID",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "F1",
+          "type": "lead",
+          "customer": {
+            "person": {
+              "name": "Mohammed Musaddiq",
+              "gender": "Male",
+              "age": "26",
+              "skills": [
+                {
+                  "name": "AWS"
+                },
+                {
+                  "name": "GCP"
+                },
+                {
+                  "name": "Docker"
+                },
+                {
+                  "name": "GIT"
+                },
+                {
+                  "name": "Python"
+                },
+                {
+                  "name": "JavaScript"
+                }
+              ],
+              "languages": [
+                {
+                  "name": "en"
+                },
+                {
+                  "name": "hi"
+                }
+              ],
+              "creds": [
+                {
+                  "id": "D1",
+                  "descriptor": {
+                    "name": "PAN_CARD",
+                    "short_desc": "PAN Card information",
+                    "long_desc": "Permanent Account Number"
+                  },
+                  "url": "https://example.com/pan_card.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D2",
+                  "descriptor": {
+                    "name": "AADHAAR_CARD",
+                    "short_desc": "Aadhaar Card information",
+                    "long_desc": "Unique Identification Number"
+                  },
+                  "url": "https://example.com/aadhaar_card.pdf",
+                  "type": "pdf"
+                },
+                {
+                  "id": "D3",
+                  "descriptor": {
+                    "name": "VOTER_ID",
+                    "short_desc": "Voter ID information",
+                    "long_desc": "Election Commission ID"
+                  },
+                  "url": "https://example.com/voter_id.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D4",
+                  "descriptor": {
+                    "name": "PASSPORT",
+                    "short_desc": "Passport information",
+                    "long_desc": "International Travel Document"
+                  },
+                  "url": "",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D5",
+                  "descriptor": {
+                    "name": "DRIVING_LICENSE",
+                    "short_desc": "Driving License information",
+                    "long_desc": "License to Drive"
+                  },
+                  "url": "https://example.com/driving_license.jpeg",
+                  "type": "jpeg"
+                },
+                {
+                  "id": "D6",
+                  "descriptor": {
+                    "name": "RESUME",
+                    "short_desc": "Summary of qualifications, work experience, and education.",
+                    "long_desc": "A comprehensive document showcasing an individual's career achievements, skills, work history, education, certifications, and professional experience."
+                  },
+                  "url": "https://msnlabs.com/img/resume-sample.pdf",
+                  "type": "pdf"
+                }
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "EMP_DETAILS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "TOTAL_EXPERIENCE"
+                      },
+                      "value": "P5Y"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "DISABILITIES_AND_ACCOMMODATIONS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "KNOWN_DISABILITIES"
+                      },
+                      "value": "Not Applicable"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "ACADEMIC_QUALIFICATIONS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "COURSE_NAME"
+                      },
+                      "value": "Diploma (without a degree)"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "COLLEGE_NAME"
+                      },
+                      "value": "University of Technology"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "YEAR_OF_COMPLETION"
+                      },
+                      "value": "2020"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "ONLINE_LEARNING_AND_SPECIALIZATIONS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "CERTIFICATIONS"
+                      },
+                      "value": "AWS, GCP, Docker, GIT, Python, JavaScript"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "WORK_EXPERIENCE"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "TOTAL_EXPERIENCE"
+                      },
+                      "value": "P5Y"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "TECHNICAL_SKILLS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "JOB_SPECIFIC_SKILLS"
+                      },
+                      "value": "AWS, GCP, Docker, GIT, Python, JavaScript"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "SKILLS"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "COMMUNICATION"
+                      },
+                      "value": "AWS, GCP, Docker, GIT, Python, JavaScript"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "LEADERSHIP"
+                      },
+                      "value": "AWS, GCP, Docker, GIT, Python, JavaScript"
+                    }
+                  ]
+                },
+                {
+                  "descriptor": {
+                    "code": "DIGITAL_FOOTPRINT"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "LINKEDIN_PROFILE"
+                      },
+                      "value": "https://linkedin.com/in/example-profile"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "GITHUB_REPOSITORIES"
+                      },
+                      "value": "https://github.com/example-profile"
+                    }
+                  ]
+                }
+              ]
+            },
+            "contact": {
+              "phone": "+919632587456",
+              "email": "musaddiq.m1@yopmail.com"
+            }
+          }
+        }
+      ],
+      "payments": [
+        {
+          "status": "NOT-PAID",
+          "type": "ON-ORDER",
+          "collected_by": "BAP",
+          "tags": {
+            "descriptor": {
+              "code": "SETTLEMENT_DETAILS"
+            },
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_COUNTERPARTY"
+                },
+                "value": "seller-app"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BANK_ACCOUNT_NO"
+                },
+                "value": "XXXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_IFSC_CODE"
+                },
+                "value": "XXXXXXXXX"
+              },
+              {
+                "descriptor": {
+                  "code": "BENEFICIARY_NAME"
+                },
+                "value": "xxxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BANK_NAME"
+                },
+                "value": "xxxx"
+              },
+              {
+                "descriptor": {
+                  "code": "BRANCH_NAME"
+                },
+                "value": "xxxx"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
